@@ -28,10 +28,24 @@ php artisan boost:install
 
 ## Updating
 
-When Laravel Boost publishes updated guidelines, run:
+When Laravel Boost publishes updated guidelines:
 
 ```bash
 composer update laravel/boost
+php artisan boost:update
+```
+
+When this package has updates:
+
+```bash
+composer update dshyam3001/laravel-boost-amazon-q
+php artisan boost:update
+```
+
+Or update both at once:
+
+```bash
+composer update laravel/boost dshyam3001/laravel-boost-amazon-q
 php artisan boost:update
 ```
 
