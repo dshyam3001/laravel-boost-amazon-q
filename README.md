@@ -17,7 +17,7 @@ This package registers Amazon Q Developer with Laravel Boost so that when you ru
 ## Installation
 
 ```bash
-composer require amazon/laravel-boost-amazon-q
+composer require dshyam3001/laravel-boost-amazon-q
 ```
 
 Then run Boost install and select **Amazon Q Developer**:
