@@ -1,7 +1,7 @@
 # Laravel Boost — Amazon Q Developer
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/amazon/laravel-boost-amazon-q.svg)](https://packagist.org/packages/amazon/laravel-boost-amazon-q)
-[![License](https://img.shields.io/packagist/l/amazon/laravel-boost-amazon-q.svg)](LICENSE)
+[![Latest Stable Version](https://img.shields.io/packagist/v/dshyam3001/laravel-boost-amazon-q.svg)](https://packagist.org/packages/dshyam3001/laravel-boost-amazon-q)
+[![License](https://img.shields.io/packagist/l/dshyam3001/laravel-boost-amazon-q.svg)](LICENSE)
 
 A [Laravel Boost](https://github.com/laravel/boost) extension that adds [Amazon Q Developer](https://aws.amazon.com/q/developer/) as a supported agent.
 
