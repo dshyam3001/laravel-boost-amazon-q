@@ -26,15 +26,21 @@ class AmazonQ extends Agent implements SupportsGuidelines, SupportsSkills
     {
         return match ($platform) {
             Platform::Darwin => [
-                'paths' => ['/Applications/Visual Studio Code.app'],
+                'paths' => [
+                    '~/.vscode/extensions/amazonwebservices.amazon-q-vscode-*',
+                    '~/.vscode-insiders/extensions/amazonwebservices.amazon-q-vscode-*',
+                ],
             ],
             Platform::Linux => [
-                'command' => 'command -v code',
+                'paths' => [
+                    '~/.vscode/extensions/amazonwebservices.amazon-q-vscode-*',
+                    '~/.vscode-insiders/extensions/amazonwebservices.amazon-q-vscode-*',
+                ],
             ],
             Platform::Windows => [
                 'paths' => [
-                    '%ProgramFiles%\\Microsoft VS Code',
-                    '%LOCALAPPDATA%\\Programs\\Microsoft VS Code',
+                    '%USERPROFILE%\\.vscode\\extensions\\amazonwebservices.amazon-q-vscode-*',
+                    '%USERPROFILE%\\.vscode-insiders\\extensions\\amazonwebservices.amazon-q-vscode-*',
                 ],
             ],
         };
