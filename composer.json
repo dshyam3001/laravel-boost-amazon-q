@@ -1,5 +1,5 @@
 {
-    "name": "amazon/laravel-boost-amazon-q",
+    "name": "dshyam3001/laravel-boost-amazon-q",
     "description": "Laravel Boost extension package that provides Amazon Q Developer integration.",
     "keywords": [
         "laravel",
@@ -14,13 +14,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Amazon Web Services",
-            "homepage": "https://aws.amazon.com"
+            "name": "dshyam3001",
+            "homepage": "https://github.com/dshyam3001"
         }
     ],
     "support": {
-        "issues": "https://github.com/aws/laravel-boost-amazon-q/issues",
-        "source": "https://github.com/aws/laravel-boost-amazon-q"
+        "issues": "https://github.com/dshyam3001/laravel-boost-amazon-q/issues",
+        "source": "https://github.com/dshyam3001/laravel-boost-amazon-q"
     },
     "require": {
         "php": "^8.2",
@@ -32,13 +32,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Amazon\\LaravelBoostAmazonQ\\": "src/"
+            "Dshyam3001\\LaravelBoostAmazonQ\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Amazon\\LaravelBoostAmazonQ\\AmazonQServiceProvider"
+                "Dshyam3001\\LaravelBoostAmazonQ\\AmazonQServiceProvider"
             ]
         }
     },

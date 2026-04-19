@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Amazon\LaravelBoostAmazonQ;
+namespace Dshyam3001\LaravelBoostAmazonQ;
 
-use Amazon\LaravelBoostAmazonQ\Install\Agents\AmazonQ;
+use Dshyam3001\LaravelBoostAmazonQ\Install\Agents\AmazonQ;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Boost\Boost;
 

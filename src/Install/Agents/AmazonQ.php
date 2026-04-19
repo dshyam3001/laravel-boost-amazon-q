@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Amazon\LaravelBoostAmazonQ\Install\Agents;
+namespace Dshyam3001\LaravelBoostAmazonQ\Install\Agents;
 
 use Illuminate\Support\Facades\Config;
 use Laravel\Boost\Contracts\SupportsGuidelines;
